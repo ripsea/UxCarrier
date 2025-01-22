@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35027.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UxCarrier", "UxCarrier\UxCarrier.csproj", "{20ECEE5E-A39E-403E-BC1F-095B6B4ADD29}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CommonLib", "CommonLib\CommonLib.csproj", "{829C5B64-509C-4ACC-B4A2-05FD81A28A2D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{20ECEE5E-A39E-403E-BC1F-095B6B4ADD29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20ECEE5E-A39E-403E-BC1F-095B6B4ADD29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20ECEE5E-A39E-403E-BC1F-095B6B4ADD29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20ECEE5E-A39E-403E-BC1F-095B6B4ADD29}.Release|Any CPU.Build.0 = Release|Any CPU
+		{829C5B64-509C-4ACC-B4A2-05FD81A28A2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{829C5B64-509C-4ACC-B4A2-05FD81A28A2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{829C5B64-509C-4ACC-B4A2-05FD81A28A2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{829C5B64-509C-4ACC-B4A2-05FD81A28A2D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {092BF178-F372-4A2B-A49F-C9A693029257}
+	EndGlobalSection
+EndGlobal

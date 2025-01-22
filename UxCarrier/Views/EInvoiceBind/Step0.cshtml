@@ -1,0 +1,15 @@
+﻿@{
+    ViewBag.Title = "Try EInoviceBind";
+}
+
+<h2>大平台歸戶測試</h2>
+
+<form method="post" id="emailForm" action="@ViewData["url"]">
+    <div class="form-group">
+        <label for="token">token</label>
+        <input type="token" class="form-control" id="token" name="token" value="eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwiY3R5IjoiSldUIiwia2lkIjoiMDEifQ..wNSlKWvyuPo20rYz.9AH2ig6DWLTn1CEGDiSx72SNQVpsYKeNQ4SmI4xqcAcHuriic_2XokWfDBqJNi1uN1pO1iJk3WlANXVRG6W4MYFp_bKiuYRo1wITDo_xCy26WrkjSOQhtZfbltrzdFHPnKvMzBoiqu6njirr9uBPJFSlI7Qu8Er56NWnzWJNRtOUrkEcB4JQYdWZ2pfFvqKMDtmI_4iFWwNgCjHX3P1WWTxcnDKq5R_oX8xx_u9a3NhsKgEwOwCl3hyPawJmq9vWswbmCM5BSTYSVk5PHeWRKik9LTBd1KZuw3005RXlVRAYqJKrkvdOUMpmdmFFbfopZK4t4UjtfhXpvSXhAJbipgDL_EJSlbB09xrly3DCK5B2WMmUZ6TJ07ryOuhQ9ZhtxfFIzin6VeKu_YNT0D8nugegMVqWjXHJrw4BMBxchy5MCUZB_CMLyBGZvemCHDZrPOjckFEiORLt6D7TXJOOBQN5kCXE43zYxcv__bAqHtcOjR3q6Yy7i51caI2zmlgkS_G.oIjs4WBcUsTJkXmuw4_Z9g" placeholder="Enter your token" />
+        <label for="ban">ban</label>
+        <input type="ban" class="form-control" id="ban" name="ban" value="12345678" placeholder="Enter your ban" />
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>

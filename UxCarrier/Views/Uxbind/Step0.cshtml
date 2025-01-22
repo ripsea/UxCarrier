@@ -1,0 +1,49 @@
+﻿@{
+    ViewData["Title"] = "Card Binding";
+}
+
+<h2>小平台歸戶測試</h2>
+
+<form id="bindingForm" action="@ViewData["url"]" method="post">
+    <div class="form-group">
+        <label for="Token">Token</label>
+        <input type="text" id="Token" name="Token" class="form-control" size="120" />
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+
+<div id="responseMessage" style="margin-top: 20px;"></div>
+
+@section Scripts {
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        // $(document).ready(function () {
+        //     $('#bindingForm').on('submit', function (event) {
+        //         event.preventDefault(); // Prevent the default form submission
+
+        //         // Get form data
+        //         const cardNo = $('#CardNo').val();
+        //         const token = $('#Token').val();
+
+        //         // AJAX request
+        //         $.ajax({
+        //             url: '/api/v1/uxbind/send',
+        //             type: 'POST',
+        //             contentType: 'application/json',
+        //             headers: {
+        //                 'Authorization': `Bearer ${token}`
+        //             },
+        //             data: JSON.stringify({
+        //                 CardNo: cardNo
+        //             }),
+        //             success: function (response) {
+        //                 //$('#responseMessage').html('<div class="alert alert-success">' + response.Result.card_no1 + '</div>');
+        //             },
+        //             error: function (xhr, status, error) {
+        //                 $('#responseMessage').html('<div class="alert alert-danger">Error: ' + xhr.responseText + '</div>');
+        //             }
+        //         });
+        //     });
+        // });
+    </script>
+}

@@ -1,0 +1,19 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@model UxCarrier.Models.Dto.UxBindStep1PostDto
+
+<html>
+
+<body onload='document.forms["form"].submit()'>
+    <form name='form' action='@(Model.url_step1)' method='post'>
+        <input type='hidden' name='card_ban' value='@(Model.card_ban)' />
+        <input type='hidden' name='card_no1' value='@(Model.card_no1)' />
+        <input type='hidden' name='card_no2' value='@(Model.card_no2)' />
+        <input type='hidden' name='card_type' value='@(Model.card_type)' />
+        <input type='hidden' name='back_url' value='@(Model.back_url)' />
+        <input type='hidden' name='token' value='@(Model.token)' />
+    </form>
+</body>
+
+</html>
